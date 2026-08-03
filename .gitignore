@@ -1,0 +1,27 @@
+# Secrets. Contains the InfluxDB token, Grafana password, and field WiFi PSK.
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Vendor installers, too large and license-restricted
+labjack_ljm_software_*
+*.tar.gz
+*.zip
+
+# Run data and scratch
+*.log
+*.csv
+data/
+runs/
+bench_checks/usb_snapshot.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
