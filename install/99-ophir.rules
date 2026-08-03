@@ -1,0 +1,5 @@
+# Ophir power meters. Lets a non-root user claim the USB interface.
+# Install:  sudo cp install/99-ophir.rules /etc/udev/rules.d/
+#           sudo udevadm control --reload-rules && sudo udevadm trigger
+# Then unplug and replug the meter.
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0bd3", MODE="0666"
