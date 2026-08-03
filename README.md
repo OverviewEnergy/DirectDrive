@@ -11,7 +11,6 @@ It works because a PV panel operated well below its maximum power point behaves 
 current source, which is what a laser diode wants. It is dangerous because that intersection
 has no active clamp, and catastrophic optical damage develops in microseconds.
 
----
 
 Predicted operating point
 
@@ -28,10 +27,5 @@ Two Renogy RNG-320D in series, label values Voc 80.6 V, Vmp 66.0 V, Isc 10.23 A,
 At 39 V the string sits at 58% of Vmp, deep in the current-source region: current varies by
 0.0007 A across the whole 38.0 to 39.5 V band. The diode pins the voltage, the panel sets
 the current, and neither can push the other around.
-
-The 243 W difference between the operating point and MPP is not recoverable. Maximum power
-transfer occurs precisely where the small-signal resistance equals the static resistance,
-which is the point at which the panel stops behaving as a current source. Stiffness and
-power are mutually exclusive demands on the same quantity.
 
 
